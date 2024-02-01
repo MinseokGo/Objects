@@ -1,5 +1,6 @@
 package ch2;
 
+import ch2.discount.DefaultDiscountPolicy;
 import ch2.discount.DiscountPolicy;
 import java.time.Duration;
 

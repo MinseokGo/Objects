@@ -3,7 +3,7 @@ package ch2.discount;
 import ch2.Money;
 import ch2.Screening;
 
-public class PercentDiscountPolicy extends DiscountPolicy {
+public class PercentDiscountPolicy extends DefaultDiscountPolicy {
     private final double percent;
 
     public PercentDiscountPolicy(final double percent, DiscountCondition... conditions) {
