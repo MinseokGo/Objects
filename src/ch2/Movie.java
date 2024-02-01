@@ -1,7 +1,6 @@
 package ch2;
 
-import ch2.discount.DefaultDiscountPolicy;
-import ch2.discount.DiscountPolicy;
+import ch2.discount.policy.DiscountPolicy;
 import java.time.Duration;
 
 public class Movie {

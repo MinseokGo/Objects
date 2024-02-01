@@ -1,7 +1,8 @@
-package ch2.discount;
+package ch2.discount.policy;
 
 import ch2.Money;
 import ch2.Screening;
+import ch2.discount.condition.DiscountCondition;
 
 public class AmountDiscountPolicy extends DefaultDiscountPolicy {
     private final Money discountAmount;

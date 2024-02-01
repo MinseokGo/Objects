@@ -1,4 +1,4 @@
-package ch2.discount;
+package ch2.discount.condition;
 
 import ch2.Screening;
 import java.time.DayOfWeek;
