@@ -1,6 +1,6 @@
 package ch2.discount.condition;
 
-import ch2.Screening;
+import ch2.movie.Screening;
 import java.time.DayOfWeek;
 import java.time.LocalTime;
 

@@ -1,7 +1,7 @@
 package ch2.discount.policy;
 
 import ch2.Money;
-import ch2.Screening;
+import ch2.movie.Screening;
 
 public class NoneDiscountPolicy implements DiscountPolicy {
     @Override

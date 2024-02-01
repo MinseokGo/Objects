@@ -1,4 +1,7 @@
-package ch2;
+package ch2.customer;
+
+import ch2.Money;
+import ch2.movie.Screening;
 
 public class Reservation {
     private final Customer customer;

@@ -5,6 +5,7 @@ import ch2.discount.policy.NoneDiscountPolicy;
 import ch2.discount.policy.PercentDiscountPolicy;
 import ch2.discount.condition.PeriodCondition;
 import ch2.discount.condition.SequenceCondition;
+import ch2.movie.Movie;
 import java.time.DayOfWeek;
 import java.time.Duration;
 import java.time.LocalTime;

@@ -1,5 +1,8 @@
-package ch2;
+package ch2.movie;
 
+import ch2.customer.Customer;
+import ch2.Money;
+import ch2.customer.Reservation;
 import java.time.LocalDateTime;
 
 public class Screening {

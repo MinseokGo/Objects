@@ -1,5 +1,6 @@
-package ch2;
+package ch2.movie;
 
+import ch2.Money;
 import ch2.discount.policy.DiscountPolicy;
 import java.time.Duration;
 
