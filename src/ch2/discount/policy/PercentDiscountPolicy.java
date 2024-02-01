@@ -7,7 +7,7 @@ import ch2.discount.condition.DiscountCondition;
 public class PercentDiscountPolicy extends DefaultDiscountPolicy {
     private final double percent;
 
-    public PercentDiscountPolicy(final double percent, DiscountCondition... conditions) {
+    public PercentDiscountPolicy(final double percent, final DiscountCondition... conditions) {
         super(conditions);
         this.percent = percent;
     }
