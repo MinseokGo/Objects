@@ -1,6 +1,7 @@
 package ch2;
 
 import ch2.discount.AmountDiscountPolicy;
+import ch2.discount.NoneDiscountPolicy;
 import ch2.discount.PercentDiscountPolicy;
 import ch2.discount.PeriodCondition;
 import ch2.discount.SequenceCondition;
@@ -26,5 +27,10 @@ public class Main {
                 new PercentDiscountPolicy(0.1,
                         new PeriodCondition(DayOfWeek.TUESDAY, LocalTime.of(14, 0), LocalTime.of(16, 59)),
                         new PeriodCondition(DayOfWeek.THURSDAY, LocalTime.of(10, 0), LocalTime.of(13, 59))));
+
+        Movie starWars = new Movie("스타워즈",
+                Duration.ofMinutes(210),
+                Money.wons(10000),
+                new NoneDiscountPolicy());
     }
 }
