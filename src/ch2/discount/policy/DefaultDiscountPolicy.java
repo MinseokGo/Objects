@@ -3,7 +3,6 @@ package ch2.discount.policy;
 import ch2.Money;
 import ch2.movie.Screening;
 import ch2.discount.condition.DiscountCondition;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
