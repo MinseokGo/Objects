@@ -1,6 +1,5 @@
 package ch4;
 
-import ch2.discount.condition.DiscountCondition;
 import java.time.Duration;
 import java.util.Collections;
 import java.util.List;

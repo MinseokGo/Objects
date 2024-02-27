@@ -6,7 +6,7 @@ public class Reservation {
     private Money fee;
     private int audienceCount;
 
-    private Reservation(Customer customer, Screening screening, Money fee, int audienceCount) {
+    public Reservation(Customer customer, Screening screening, Money fee, int audienceCount) {
         this.customer = customer;
         this.screening = screening;
         this.fee = fee;
