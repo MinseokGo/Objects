@@ -1,4 +1,4 @@
-package ch4;
+package ch4.movie;
 
 import java.time.LocalDateTime;
 

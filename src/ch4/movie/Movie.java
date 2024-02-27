@@ -1,5 +1,7 @@
-package ch4;
+package ch4.movie;
 
+import ch4.discount.DiscountCondition;
+import ch4.Money;
 import java.time.Duration;
 import java.util.Collections;
 import java.util.List;

@@ -1,4 +1,4 @@
-package ch4;
+package ch4.customer;
 
 public class Customer {
     private final String name;

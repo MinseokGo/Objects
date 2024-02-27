@@ -1,4 +1,4 @@
-package ch4;
+package ch4.discount;
 
 public enum DiscountConditionType {
     SEQUENCE,   // 순번 조건

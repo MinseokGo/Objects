@@ -1,4 +1,4 @@
-package ch4;
+package ch4.discount;
 
 import java.time.DayOfWeek;
 import java.time.LocalTime;

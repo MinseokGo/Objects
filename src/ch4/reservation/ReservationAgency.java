@@ -1,5 +1,12 @@
-package ch4;
+package ch4.reservation;
 
+import ch4.Money;
+import ch4.customer.Customer;
+import ch4.discount.DiscountCondition;
+import ch4.discount.DiscountConditionType;
+import ch4.movie.Movie;
+import ch4.movie.MovieType;
+import ch4.movie.Screening;
 import java.util.List;
 
 public class ReservationAgency {
