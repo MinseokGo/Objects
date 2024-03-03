@@ -16,6 +16,8 @@ public class Movie {
     private Money discountAmount;
     private double discountPercent;
 
+
+
     public Money getFee() {
         return fee;
     }
