@@ -10,13 +10,25 @@ import java.time.LocalTime;
 import java.util.List;
 
 public class Movie {
-    private String title;
-    private Duration runningTime;
-    private Money fee;
-    private List<DiscountCondition> discountConditions;
-    private MovieType movieType;
-    private Money discountAmount;
-    private double discountPercent;
+    private final String title;
+    private final Duration runningTime;
+    private final Money fee;
+    private final List<DiscountCondition> discountConditions;
+    private final MovieType movieType;
+    private final Money discountAmount;
+    private final double discountPercent;
+
+    public Movie(final String title, final Duration runningTime, final Money fee,
+                 final List<DiscountCondition> discountConditions,
+                 final MovieType movieType, final Money discountAmount, final double discountPercent) {
+        this.title = title;
+        this.runningTime = runningTime;
+        this.fee = fee;
+        this.discountConditions = discountConditions;
+        this.movieType = movieType;
+        this.discountAmount = discountAmount;
+        this.discountPercent = discountPercent;
+    }
 
     public Money calculateAmountDiscountedFee() {
         if (movieType != MovieType.AMOUNT_DISCOUNT) {

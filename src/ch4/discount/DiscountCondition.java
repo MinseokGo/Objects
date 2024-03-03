@@ -4,13 +4,21 @@ import java.time.DayOfWeek;
 import java.time.LocalTime;
 
 public class DiscountCondition {
-    private DiscountConditionType type;
+    private final DiscountConditionType type;
+    private final int sequence;
+    private final DayOfWeek dayOfWeek;
+    private final LocalTime startTime;
+    private final LocalTime endTime;
 
-    private int sequence;
-
-    private DayOfWeek dayOfWeek;
-    private LocalTime startTime;
-    private LocalTime endTime;
+    public DiscountCondition(final DiscountConditionType type, final int sequence, final DayOfWeek dayOfWeek,
+                             final LocalTime startTime,
+                             final LocalTime endTime) {
+        this.type = type;
+        this.sequence = sequence;
+        this.dayOfWeek = dayOfWeek;
+        this.startTime = startTime;
+        this.endTime = endTime;
+    }
 
     public boolean isDiscountable(final DayOfWeek dayOfWeek, final LocalTime time) {
         if (type != DiscountConditionType.PERIOD) {
