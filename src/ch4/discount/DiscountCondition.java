@@ -29,4 +29,8 @@ public class DiscountCondition {
 
         return this.sequence == sequence;
     }
+
+    public DiscountConditionType getType() {
+        return type;
+    }
 }
